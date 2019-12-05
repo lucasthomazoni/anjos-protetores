@@ -209,6 +209,45 @@ img {
   margin-bottom: 1rem;
 }
 
+.text-2 {
+  height: 40px;
+} 
+
+.card-ajuda {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+
+.card-atendimento {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inside {
+  list-style-type: disc;
+}
+
+.small {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.list-ajudar {
+  display: flex;
+  height: 40px;
+}
+
+.atendimento-card {
+  display: flex;
+  justify-content: space-between;
+}
+
 .section-footer h3 {
   margin-bottom: 0.7rem;
 }
