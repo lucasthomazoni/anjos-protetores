@@ -409,6 +409,13 @@ img {
 {
   margin:0
 }
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 @media (max-width:991px)
 {
   .site-footer [class^=col-]
@@ -481,5 +488,10 @@ img {
   .section-footer div:nth-child(2),
   .section-footer div:nth-child(3) {
     display: none;
+  }
+
+  .footer-icons {
+    display: flex;
+    flex-direction: column;
   }
 }
